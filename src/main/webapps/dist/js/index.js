@@ -57,7 +57,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
+/******/ 	__webpack_require__.p = "/resources/";
 /******/
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(__webpack_require__.s = 81);
@@ -9775,7 +9775,10 @@ var Hello = function (_React$Component) {
             return _react2.default.createElement(
                 'div',
                 null,
-                'Hello React!!!!'
+                'Hello React!!!!',
+                _react2.default.createElement('img', {
+                    src: __webpack_require__(185)
+                })
             );
         }
     }]);
@@ -22426,6 +22429,12 @@ module.exports = ReactDOMInvalidARIAHook;
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 185 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "images/1623ad5a88eb8d2edee770ff5c90aad7.png";
 
 /***/ })
 /******/ ]);
