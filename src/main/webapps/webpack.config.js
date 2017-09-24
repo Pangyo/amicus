@@ -3,6 +3,11 @@ var ExtractTextPlugin = require("extract-text-webpack-plugin");
 var webpack = require("webpack")
 
 module.exports = {
+  resolve: {
+    alias: {
+      'waypoints': 'waypoints/lib/jquery.waypoints.js'
+    }
+  },
   entry: {
     'index': './src/index.jsx'
   },
@@ -15,7 +20,6 @@ module.exports = {
     loaders: [{
         test: /.(js|jsx)$/,
         loader: 'babel-loader',
-        exclude: /node_modules/,
         query: {
           presets: ['es2015', 'react'],
           plugins: ['transform-class-properties'],
@@ -23,7 +27,6 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        exclude: /node_modules/,
         loader: ExtractTextPlugin.extract({
           fallback: "style-loader",
           use: "css-loader"
@@ -31,7 +34,6 @@ module.exports = {
       },
       {
         test: /\.(gif|png|jpe?g|svg)$/i,
-        exclude: /node_modules/,
         loaders: [
           'file-loader?hash=sha512&digest=hex&name=images/[hash].[ext]',
           'image-webpack-loader?{optimizationLevel: 7, interlaced: false, pngquant:{quality: "65-90", speed: 4}, mozjpeg: {quality: 65}}'
@@ -39,8 +41,11 @@ module.exports = {
       },
       {
         test: /\.(woff|woff2|eot|ttf|svg)$/,
-        exclude: /node_modules/,
         loader: 'url-loader?limit=1024&name=fonts/[name].[ext]'
+      },
+      {
+          test: require.resolve("wowjs"),
+          loader: "imports-loader?this=>window"
       }
     ]
   },
@@ -49,7 +54,9 @@ module.exports = {
     new webpack.ProvidePlugin({
       jQuery: 'jquery',
       $: 'jquery',
-      jquery: 'jquery'
+      jquery: 'jquery',
+      'window.jQuery': 'jquery'
     })
   ],
 }
+
