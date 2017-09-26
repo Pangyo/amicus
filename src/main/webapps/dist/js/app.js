@@ -60,7 +60,7 @@
 /******/ 	__webpack_require__.p = "/resources/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 189);
+/******/ 	return __webpack_require__(__webpack_require__.s = 196);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -22420,7 +22420,19 @@ exports.default = Footer;
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 189 */
+/* 189 */,
+/* 190 */,
+/* 191 */,
+/* 192 */,
+/* 193 */,
+/* 194 */,
+/* 195 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 196 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22440,10 +22452,6 @@ var _header = __webpack_require__(183);
 
 var _header2 = _interopRequireDefault(_header);
 
-var _indexSlider = __webpack_require__(190);
-
-var _indexSlider2 = _interopRequireDefault(_indexSlider);
-
 var _footer = __webpack_require__(185);
 
 var _footer2 = _interopRequireDefault(_footer);
@@ -22456,6 +22464,8 @@ __webpack_require__(188);
 
 __webpack_require__(195);
 
+__webpack_require__(215);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -22464,710 +22474,51 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var Hello = function (_React$Component) {
-    _inherits(Hello, _React$Component);
+var App = function (_React$Component) {
+    _inherits(App, _React$Component);
 
-    function Hello() {
-        _classCallCheck(this, Hello);
+    function App() {
+        _classCallCheck(this, App);
 
-        return _possibleConstructorReturn(this, (Hello.__proto__ || Object.getPrototypeOf(Hello)).apply(this, arguments));
+        return _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).apply(this, arguments));
     }
 
-    _createClass(Hello, [{
+    _createClass(App, [{
         key: 'render',
         value: function render() {
             return _react2.default.createElement(
                 'div',
                 null,
-                _react2.default.createElement(_header2.default, null),
-                _react2.default.createElement(_indexSlider2.default, null),
-                _react2.default.createElement(_footer2.default, null)
+                _react2.default.createElement(_header2.default, { headerClass: 'bg-change' })
             );
         }
     }]);
 
-    return Hello;
+    return App;
 }(_react2.default.Component);
 
-_reactDom2.default.render(_react2.default.createElement(Hello, null), document.getElementById('app'));
+_reactDom2.default.render(_react2.default.createElement(App, null), document.getElementById('app'));
 
 /***/ }),
-/* 190 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-
-var _react = __webpack_require__(32);
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var IndexSlider = function IndexSlider(props) {
-    return _react2.default.createElement(
-        "div",
-        null,
-        _react2.default.createElement(
-            "section",
-            { id: "main-slider", className: "main-slider text-center" },
-            _react2.default.createElement(
-                "div",
-                { className: "" },
-                _react2.default.createElement(
-                    "div",
-                    { className: "" },
-                    _react2.default.createElement("img", { src: __webpack_require__(191) })
-                ),
-                _react2.default.createElement(
-                    "div",
-                    { className: "slider-text" },
-                    _react2.default.createElement(
-                        "div",
-                        { className: "slide-inner" },
-                        _react2.default.createElement(
-                            "h2",
-                            { className: "slider-title" },
-                            _react2.default.createElement(
-                                "strong",
-                                null,
-                                "\uD310\uAD50\uD31F"
-                            ),
-                            "\uC5D0 \uC624\uC2E0\uAC83\uC744 \uD658\uC601\uD569\uB2C8\uB2E4"
-                        ),
-                        _react2.default.createElement(
-                            "p",
-                            { className: "slide-description" },
-                            "\uD310\uAD50\uC9C0\uC5ED \uAC1C\uBC1C\uC790 \uC138\uBBF8\uB098 \uBAA8\uC784"
-                        ),
-                        _react2.default.createElement(
-                            "div",
-                            { className: "slide-btn-container" },
-                            _react2.default.createElement(
-                                "a",
-                                { className: "btn", href: "http://goo.gl/forms/Jvoui4tcbBeQ3g6g1" },
-                                "\uD568\uAED8\uD558\uAE30"
-                            )
-                        )
-                    )
-                )
-            )
-        ),
-        _react2.default.createElement(
-            "section",
-            { id: "introduce", className: "portfolio text-center" },
-            _react2.default.createElement(
-                "div",
-                { className: "portfolio-bottom" },
-                _react2.default.createElement(
-                    "div",
-                    { className: "section-padding" },
-                    _react2.default.createElement(
-                        "div",
-                        { className: "section-top wow animated fadeInUp", "data-wow-delay": ".5s" },
-                        _react2.default.createElement(
-                            "h2",
-                            { className: "section-title" },
-                            _react2.default.createElement(
-                                "span",
-                                null,
-                                "\uD310\uAD50\uD31F"
-                            ),
-                            " \uC18C\uAC1C"
-                        ),
-                        _react2.default.createElement(
-                            "p",
-                            { className: "section-description" },
-                            "\uD310\uAD50\uD31F\uC740 \uD310\uAD50\uC5D0\uC11C \uC77C\uD558\uB294 \uAC1C\uBC1C\uC790\uB4E4\uC758 \uC790\uCCB4\uC801\uC778 \uC138\uBBF8\uB098 \uBAA8\uC784\uC785\uB2C8\uB2E4."
-                        ),
-                        _react2.default.createElement(
-                            "p",
-                            { className: "section-description" },
-                            "20\uB300 \uD6C4\uBC18\uC758 \uAC1C\uBC1C\uC790\uB4E4\uB85C \uAD6C\uC131\uB418\uC5B4 \uC788\uC73C\uBA70 \uC790\uAE30\uACC4\uBC1C\uC744 \uC88B\uC544\uD558\uB294 \uC0AC\uB78C\uB4E4\uC785\uB2C8\uB2E4."
-                        ),
-                        _react2.default.createElement(
-                            "p",
-                            { className: "section-description" },
-                            "\uC800\uD76C\uB294 \uC11C\uB85C \uD558\uACE0 \uC2F6\uC740 \uC138\uBBF8\uB098\uB294 \uD558\uACE0, \uB4E3\uACE0 \uC2F6\uC740 \uC138\uBBF8\uB098\uB294 \uC694\uCCAD\uD569\uB2C8\uB2E4."
-                        )
-                    ),
-                    _react2.default.createElement(
-                        "div",
-                        { className: "latest-projects wow animated fadeInUp", "data-wow-delay": ".5s" },
-                        _react2.default.createElement(
-                            "div",
-                            { className: "itemFilter" },
-                            _react2.default.createElement(
-                                "a",
-                                { href: "#" },
-                                "\uC7AC\uBBF8"
-                            ),
-                            _react2.default.createElement(
-                                "a",
-                                { href: "#" },
-                                "\uC138\uBBF8\uB098"
-                            ),
-                            _react2.default.createElement(
-                                "a",
-                                { href: "#" },
-                                "\uBC30\uC6C0"
-                            ),
-                            _react2.default.createElement(
-                                "a",
-                                { href: "#" },
-                                "\uAC00\uB974\uCE68"
-                            ),
-                            _react2.default.createElement(
-                                "a",
-                                { href: "#" },
-                                "\uD1A0\uB860\uBB38\uD654"
-                            ),
-                            _react2.default.createElement(
-                                "a",
-                                { href: "#" },
-                                "\uACF5\uC720"
-                            )
-                        ),
-                        _react2.default.createElement(
-                            "p",
-                            { className: "section-description" },
-                            "\uC800\uD76C\uB294 \uC704\uC640 \uAC19\uC740 \uD0A4\uC6CC\uB4DC \uC544\uB798 \uC11C\uB85C \uC990\uAE30\uACE0 \uC788\uC2B5\uB2C8\uB2E4."
-                        )
-                    )
-                )
-            )
-        ),
-        _react2.default.createElement(
-            "section",
-            { id: "services", className: "services text-center" },
-            _react2.default.createElement(
-                "div",
-                { className: "section-padding" },
-                _react2.default.createElement(
-                    "div",
-                    { className: "container" },
-                    _react2.default.createElement(
-                        "div",
-                        { className: "row" },
-                        _react2.default.createElement(
-                            "div",
-                            { className: "section-top wow animated fadeInUp", "data-wow-delay": ".5s" },
-                            _react2.default.createElement(
-                                "h2",
-                                { className: "section-title" },
-                                "\uC6B4\uC601\uBC29\uC2DD"
-                            )
-                        ),
-                        _react2.default.createElement(
-                            "div",
-                            { className: "section-details" },
-                            _react2.default.createElement(
-                                "div",
-                                { className: "service-details" },
-                                _react2.default.createElement(
-                                    "div",
-                                    { className: "col-md-3 col-sm-6" },
-                                    _react2.default.createElement(
-                                        "div",
-                                        { className: "item wow animated fadeInLeft", "data-wow-delay": ".5s" },
-                                        _react2.default.createElement(
-                                            "div",
-                                            { className: "item-icon" },
-                                            _react2.default.createElement("i", { className: "fa fa-calendar" })
-                                        ),
-                                        _react2.default.createElement(
-                                            "div",
-                                            { className: "item-details" },
-                                            _react2.default.createElement(
-                                                "h4",
-                                                { className: "item-title" },
-                                                "\uBAA8\uC784\uC740 \uD55C\uB2EC\uC5D0 \uB450\uBC88 "
-                                            ),
-                                            _react2.default.createElement(
-                                                "p",
-                                                { className: "item-description" },
-                                                "2\uC8FC\uCC28 / 4\uC8FC\uCC28 \uC77C\uC694\uC77C\uC5D0 \uBAA8\uC785\uB2C8\uB2E4."
-                                            ),
-                                            _react2.default.createElement(
-                                                "p",
-                                                { className: "item-description", style: { 'textDecoration': 'line-through' } },
-                                                "\uD3C9\uC77C\uC740 \uC57C\uADFC\uD558\uC796\uC544\uC694",
-                                                _react2.default.createElement("br", null),
-                                                _react2.default.createElement("br", null),
-                                                _react2.default.createElement("br", null)
-                                            )
-                                        )
-                                    )
-                                ),
-                                _react2.default.createElement(
-                                    "div",
-                                    { className: "col-md-3 col-sm-6" },
-                                    _react2.default.createElement(
-                                        "div",
-                                        { className: "item wow animated fadeInLeft", "data-wow-delay": ".35s" },
-                                        _react2.default.createElement(
-                                            "div",
-                                            { className: "item-icon" },
-                                            _react2.default.createElement("i", { className: "fa fa-clock-o" })
-                                        ),
-                                        _react2.default.createElement(
-                                            "div",
-                                            { className: "item-details" },
-                                            _react2.default.createElement(
-                                                "h4",
-                                                { className: "item-title" },
-                                                "\uC2DC\uAC04\uC740 5\uC2DC\uBD80\uD130 9\uC2DC"
-                                            ),
-                                            _react2.default.createElement(
-                                                "p",
-                                                { className: "item-description" },
-                                                "1H : Ice Breaking",
-                                                _react2.default.createElement("br", null),
-                                                "2H : Seminar",
-                                                _react2.default.createElement("br", null),
-                                                "3H : Seminar",
-                                                _react2.default.createElement("br", null),
-                                                "4H : Live Coding / Meet",
-                                                _react2.default.createElement("br", null),
-                                                _react2.default.createElement("br", null)
-                                            )
-                                        )
-                                    )
-                                ),
-                                _react2.default.createElement(
-                                    "div",
-                                    { className: "col-md-3 col-sm-6" },
-                                    _react2.default.createElement(
-                                        "div",
-                                        { className: "item wow animated fadeInRight", "data-wow-delay": ".35s" },
-                                        _react2.default.createElement(
-                                            "div",
-                                            { className: "item-icon" },
-                                            _react2.default.createElement("i", { className: "fa fa-money" })
-                                        ),
-                                        _react2.default.createElement(
-                                            "div",
-                                            { className: "item-details" },
-                                            _react2.default.createElement(
-                                                "h4",
-                                                { className: "item-title" },
-                                                "\uD68C\uBE44\uB294 \uC6D4 4\uB9CC\uC6D0"
-                                            ),
-                                            _react2.default.createElement(
-                                                "p",
-                                                { className: "item-description" },
-                                                "\uBAA8\uC784 \uACF5\uAC04\uC744 \uBE4C\uB9AC\uB294 \uB370 \uC0AC\uC6A9\uD569\uB2C8\uB2E4."
-                                            ),
-                                            _react2.default.createElement(
-                                                "p",
-                                                { className: "item-description", style: { 'textDecoration': 'line-through' } },
-                                                "\uB0A8\uC740 \uB3C8\uC740 \uC6D4\uB9D0\uC5D0 \uD68C\uC2DD\uBE44\uC5D0 \uBCF4\uD0ED\uB2C8\uB2E4.",
-                                                _react2.default.createElement("br", null),
-                                                _react2.default.createElement("br", null),
-                                                _react2.default.createElement("br", null)
-                                            )
-                                        )
-                                    )
-                                ),
-                                _react2.default.createElement(
-                                    "div",
-                                    { className: "col-md-3 col-sm-6" },
-                                    _react2.default.createElement(
-                                        "div",
-                                        { className: "item wow animated fadeInRight", "data-wow-delay": ".5s" },
-                                        _react2.default.createElement(
-                                            "div",
-                                            { className: "item-icon" },
-                                            _react2.default.createElement("i", { className: "fa fa-group" })
-                                        ),
-                                        _react2.default.createElement(
-                                            "div",
-                                            { className: "item-details" },
-                                            _react2.default.createElement(
-                                                "h4",
-                                                { className: "item-title" },
-                                                "\uD1A0\uB860\uBB38\uD654"
-                                            ),
-                                            _react2.default.createElement(
-                                                "p",
-                                                { className: "item-description" },
-                                                "\uC11C\uB85C \uBD84\uC57C\uAC00 \uB2E4\uB978 \uAC1C\uBC1C\uC790\uB4E4\uC774 \uBAA8\uC774\uB2E4\uBCF4\uB2C8 \uD558\uB098\uC758 \uC8FC\uC81C\uB85C\uB3C4 \uC5F4\uB764 \uD1A0\uB860\uC744 \uBC8C\uC785\uB2C8\uB2E4."
-                                            ),
-                                            _react2.default.createElement(
-                                                "p",
-                                                { className: "item-description", style: { 'textDecoration': 'line-through' } },
-                                                "\uC2F1\uAE00\uD134 \uD558\uB098\uB85C 4\uC2DC\uAC04 \uD1A0\uB860\uD588\uB358\uAC74 \uC78A\uC744 \uC218 \uC5C6\uB294 \uCD94\uC5B5\uC785\uB2C8\uB2E4"
-                                            )
-                                        )
-                                    )
-                                )
-                            )
-                        )
-                    )
-                ),
-                _react2.default.createElement(
-                    "div",
-                    { className: "container" },
-                    _react2.default.createElement(
-                        "div",
-                        { className: "row" },
-                        _react2.default.createElement(
-                            "h1",
-                            null,
-                            "\xA0",
-                            _react2.default.createElement("br", null)
-                        )
-                    )
-                )
-            )
-        ),
-        _react2.default.createElement(
-            "section",
-            { id: "testimonial", className: "testimonial text-center", "data-stellar-background-ratio": "0.1", "data-stellar-vertical-offset": "0" },
-            _react2.default.createElement(
-                "div",
-                { className: "pattern-overlay" },
-                _react2.default.createElement(
-                    "div",
-                    { className: "section-padding" },
-                    _react2.default.createElement(
-                        "div",
-                        { className: "container" },
-                        _react2.default.createElement(
-                            "div",
-                            { className: "section-top wow animated fadeInUp", "data-wow-delay": ".5s" },
-                            _react2.default.createElement(
-                                "h2",
-                                { className: "section-title" },
-                                "VISION"
-                            )
-                        ),
-                        _react2.default.createElement(
-                            "div",
-                            { className: "section-top wow animated fadeInUp", "data-wow-delay": ".5s" },
-                            _react2.default.createElement(
-                                "div",
-                                { id: "testimonial-slider", className: "testimonial-slider carousel slide", "data-ride": "carousel" },
-                                _react2.default.createElement(
-                                    "ol",
-                                    { className: "carousel-indicators" },
-                                    _react2.default.createElement("li", { "data-target": "#testimonial-slider", "data-slide-to": "0", className: "active" }),
-                                    _react2.default.createElement("li", { "data-target": "#testimonial-slider", "data-slide-to": "1" }),
-                                    _react2.default.createElement("li", { "data-target": "#testimonial-slider", "data-slide-to": "2" }),
-                                    _react2.default.createElement("li", { "data-target": "#testimonial-slider", "data-slide-to": "3" })
-                                ),
-                                _react2.default.createElement(
-                                    "div",
-                                    { className: "carousel-inner", role: "listbox" },
-                                    _react2.default.createElement(
-                                        "div",
-                                        { className: "item active" },
-                                        _react2.default.createElement(
-                                            "blockquote",
-                                            { className: "client-quote" },
-                                            "\uBC1C\uD45C\uB97C \uD1B5\uD574 \uAD50\uB958\uD558\uACE0 \uACF5\uC720\uD558\uB294 \uBB38\uD654\uB97C \uACBD\uD5D8\uD558\uC790"
-                                        )
-                                    ),
-                                    _react2.default.createElement(
-                                        "div",
-                                        { className: "item" },
-                                        _react2.default.createElement(
-                                            "blockquote",
-                                            { className: "client-quote" },
-                                            "\uAC01\uC790 \uBD84\uC57C\uAC00 \uB2E4\uB978 \uAC1C\uBC1C\uC790\uB4E4\uC774 \uBAA8\uC5EC\uC11C \uC11C\uB85C\uC758 \uC778\uC0AC\uC774\uD2B8\uB97C \uACF5\uC720\uD558\uC790"
-                                        )
-                                    ),
-                                    _react2.default.createElement(
-                                        "div",
-                                        { className: "item" },
-                                        _react2.default.createElement(
-                                            "blockquote",
-                                            { className: "client-quote" },
-                                            "\uC0AC\uB78C\uC774\uB77C\uBA74 \uAC00\uB054\uC529 \uD558\uB294 \uC0C1\uC0C1\uC744 \uD589\uB3D9\uC73C\uB85C \uC62E\uAE30\uBA74\uC11C \uC990\uAC70\uC6C0\uC744 \uCC3E\uC790"
-                                        )
-                                    ),
-                                    _react2.default.createElement(
-                                        "div",
-                                        { className: "item" },
-                                        _react2.default.createElement(
-                                            "blockquote",
-                                            { className: "client-quote" },
-                                            "\uC88B\uC740 \uAC1C\uBC1C\uBB38\uD654\uB97C \uC815\uCC29\uC2DC\uCF1C \uB9CE\uC740 \uC0AC\uB78C\uB4E4\uC5D0\uAC8C \uACF5\uC720\uD568\uC73C\uB85C\uC368 \uB354 \uC88B\uC740 \uC138\uC0C1\uC744 \uB9CC\uB4E4\uC790"
-                                        )
-                                    )
-                                )
-                            )
-                        )
-                    )
-                )
-            )
-        ),
-        _react2.default.createElement(
-            "section",
-            { id: "productivity", className: "portfolio text-center" },
-            _react2.default.createElement(
-                "div",
-                { className: "section-padding" },
-                _react2.default.createElement(
-                    "div",
-                    { className: "container" },
-                    _react2.default.createElement(
-                        "div",
-                        { className: "row" },
-                        _react2.default.createElement(
-                            "div",
-                            { className: "section-top wow animated fadeInUp", "data-wow-delay": ".5s" },
-                            _react2.default.createElement(
-                                "h2",
-                                { className: "section-title" },
-                                "Interchange"
-                            )
-                        ),
-                        _react2.default.createElement(
-                            "div",
-                            { className: "section-details" },
-                            _react2.default.createElement(
-                                "div",
-                                { className: "post-area" },
-                                _react2.default.createElement(
-                                    "div",
-                                    { className: "col-md-4" },
-                                    _react2.default.createElement(
-                                        "article",
-                                        { className: "type-post post wow animated fadeInUp", "data-wow-delay": ".35s" },
-                                        _react2.default.createElement(
-                                            "div",
-                                            { className: "post-thumbnail" },
-                                            _react2.default.createElement("img", { src: __webpack_require__(192), alt: "post image" })
-                                        ),
-                                        _react2.default.createElement(
-                                            "div",
-                                            { className: "post-content" },
-                                            _react2.default.createElement(
-                                                "h4",
-                                                { className: "entry-title" },
-                                                _react2.default.createElement(
-                                                    "a",
-                                                    { href: "#" },
-                                                    "SLACK"
-                                                )
-                                            ),
-                                            _react2.default.createElement(
-                                                "p",
-                                                { className: "entry-content" },
-                                                "\uBE60\uB978 \uC758\uC0AC\uC18C\uD1B5\uACFC \uAC1C\uBC1C\uB3C4\uAD6C\uAC04\uC758 \uC5F0\uACC4"
-                                            )
-                                        )
-                                    )
-                                ),
-                                _react2.default.createElement(
-                                    "div",
-                                    { className: "col-md-4" },
-                                    _react2.default.createElement(
-                                        "article",
-                                        { className: "type-post post wow animated fadeInUp", "data-wow-delay": ".55s" },
-                                        _react2.default.createElement(
-                                            "div",
-                                            { className: "post-thumbnail" },
-                                            _react2.default.createElement("img", { src: __webpack_require__(193), alt: "post image" })
-                                        ),
-                                        _react2.default.createElement(
-                                            "div",
-                                            { className: "post-content" },
-                                            _react2.default.createElement(
-                                                "h4",
-                                                { className: "entry-title" },
-                                                _react2.default.createElement(
-                                                    "a",
-                                                    { href: "#" },
-                                                    "GOOGLE DRIVE"
-                                                )
-                                            ),
-                                            _react2.default.createElement(
-                                                "p",
-                                                { className: "entry-content" },
-                                                "\uC6B0\uB9AC\uC758 \uC18C\uC911\uD55C \uC138\uBBF8\uB098 \uC790\uB8CC \uBCF4\uAD00"
-                                            )
-                                        )
-                                    )
-                                ),
-                                _react2.default.createElement(
-                                    "div",
-                                    { className: "col-md-4" },
-                                    _react2.default.createElement(
-                                        "article",
-                                        { className: "type-post post wow animated fadeInUp", "data-wow-delay": ".75s" },
-                                        _react2.default.createElement(
-                                            "div",
-                                            { className: "post-thumbnail" },
-                                            _react2.default.createElement("img", { src: __webpack_require__(194), alt: "post image" })
-                                        ),
-                                        _react2.default.createElement(
-                                            "div",
-                                            { className: "post-content" },
-                                            _react2.default.createElement(
-                                                "h4",
-                                                { className: "entry-title" },
-                                                _react2.default.createElement(
-                                                    "a",
-                                                    { href: "#" },
-                                                    "GITHUB"
-                                                )
-                                            ),
-                                            _react2.default.createElement(
-                                                "p",
-                                                { className: "entry-content" },
-                                                "\uC544\uC8FC \uC791\uC740 \uADDC\uBAA8\uC758, \uD558\uC9C0\uB9CC \uC7AC\uBC0C\uB294 \uD504\uB85C\uC81D\uD2B8 \uC9C4\uD589"
-                                            )
-                                        )
-                                    )
-                                )
-                            )
-                        )
-                    )
-                )
-            )
-        ),
-        _react2.default.createElement(
-            "section",
-            { id: "about", className: "about" },
-            _react2.default.createElement(
-                "div",
-                { className: "about-top" },
-                _react2.default.createElement(
-                    "div",
-                    { className: "section-padding" },
-                    _react2.default.createElement(
-                        "div",
-                        { className: "container" },
-                        _react2.default.createElement(
-                            "div",
-                            { className: "row" },
-                            _react2.default.createElement(
-                                "div",
-                                { className: "section-top wow" },
-                                _react2.default.createElement(
-                                    "h2",
-                                    { className: "section-title text-center" },
-                                    "Contact"
-                                )
-                            ),
-                            _react2.default.createElement(
-                                "div",
-                                { className: "col-md-6" },
-                                _react2.default.createElement(
-                                    "div",
-                                    { className: "know-about-us wow" },
-                                    _react2.default.createElement(
-                                        "h2",
-                                        { className: "section-title" },
-                                        _react2.default.createElement(
-                                            "span",
-                                            null,
-                                            "\uB2E4\uC591\uD55C \uBD84\uC57C"
-                                        ),
-                                        "\uB97C \uC6D0\uD569\uB2C8\uB2E4."
-                                    ),
-                                    _react2.default.createElement(
-                                        "p",
-                                        { className: "description" },
-                                        "\uD568\uAED8 \uC778\uC0AC\uC774\uD2B8\uB97C \uD0A4\uC6CC\uB098\uAC00\uACE0 \uC2F6\uC2B5\uB2C8\uB2E4"
-                                    ),
-                                    _react2.default.createElement(
-                                        "div",
-                                        { className: "know-about-us wow " },
-                                        _react2.default.createElement(
-                                            "h2",
-                                            { className: "section-title" },
-                                            _react2.default.createElement(
-                                                "span",
-                                                null,
-                                                "\uB2E4\uC591\uD55C \uC0AC\uB78C"
-                                            ),
-                                            "\uC744 \uC6D0\uD569\uB2C8\uB2E4."
-                                        ),
-                                        _react2.default.createElement(
-                                            "p",
-                                            { className: "description" },
-                                            "\uD568\uAED8 \uC131\uC7A5\uD558\uACE0 \uC2F6\uC2B5\uB2C8\uB2E4"
-                                        )
-                                    )
-                                )
-                            ),
-                            _react2.default.createElement(
-                                "div",
-                                { className: "col-md-6" },
-                                _react2.default.createElement(
-                                    "h2",
-                                    { className: "section-title" },
-                                    _react2.default.createElement(
-                                        "span",
-                                        null,
-                                        "NAME\xA0 : "
-                                    ),
-                                    "\uAE40\uB0A8\uD6C8"
-                                ),
-                                _react2.default.createElement(
-                                    "h2",
-                                    { className: "section-title" },
-                                    _react2.default.createElement(
-                                        "span",
-                                        null,
-                                        "EMAIL : "
-                                    ),
-                                    "pangyoparty@gmail.com"
-                                ),
-                                _react2.default.createElement(
-                                    "h2",
-                                    { className: "section-title" },
-                                    _react2.default.createElement(
-                                        "span",
-                                        null,
-                                        "PHONE : "
-                                    ),
-                                    "010 - 3901 - 6292"
-                                )
-                            )
-                        )
-                    )
-                )
-            )
-        )
-    );
-};
-
-exports.default = IndexSlider;
-
-/***/ }),
-/* 191 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "images/8d40b7d973b3dd65032ec66bee71c3a5.jpg";
-
-/***/ }),
-/* 192 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "images/06c5720a89050a7f1ab2d2f9c0e2866d.png";
-
-/***/ }),
-/* 193 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "images/1efcc4c66cf0d0837b7d2b91c94f78cd.png";
-
-/***/ }),
-/* 194 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "images/5620cf0a019e6ace4ac7ca0cf9cfe209.png";
-
-/***/ }),
-/* 195 */
+/* 197 */,
+/* 198 */,
+/* 199 */,
+/* 200 */,
+/* 201 */,
+/* 202 */,
+/* 203 */,
+/* 204 */,
+/* 205 */,
+/* 206 */,
+/* 207 */,
+/* 208 */,
+/* 209 */,
+/* 210 */,
+/* 211 */,
+/* 212 */,
+/* 213 */,
+/* 214 */,
+/* 215 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin

@@ -12,4 +12,9 @@ public class HomeController {
     public String home() {
         return "index";
     }
+
+    @RequestMapping("/members")
+    public String member() {
+        return "app";
+    }
 }

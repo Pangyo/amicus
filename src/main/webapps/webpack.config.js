@@ -3,13 +3,9 @@ var ExtractTextPlugin = require("extract-text-webpack-plugin");
 var webpack = require("webpack")
 
 module.exports = {
-  resolve: {
-    alias: {
-      'waypoints': 'waypoints/lib/jquery.waypoints.js'
-    }
-  },
   entry: {
-    'index': './src/index.jsx'
+    'index': './src/index.jsx',
+    'app': './src/app.jsx'
   },
   output: {
     path: path.resolve('dist'), //compile된 파일들이 dist에 떨어짐.
