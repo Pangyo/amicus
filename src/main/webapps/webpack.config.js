@@ -5,7 +5,7 @@ var webpack = require("webpack")
 module.exports = {
   entry: {
     'index': './src/index.jsx',
-    'app': './src/app.jsx'
+    'members': './src/members.jsx'
   },
   output: {
     path: path.resolve('dist'), //compile된 파일들이 dist에 떨어짐.
