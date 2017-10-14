@@ -171,6 +171,7 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
+src/main/webapps/dist/
 
 # Typescript v1 declaration files
 typings/

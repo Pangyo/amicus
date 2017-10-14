@@ -38,10 +38,6 @@ module.exports = {
       {
         test: /\.(woff|woff2|eot|ttf|svg)$/,
         loader: 'url-loader?limit=1024&name=fonts/[name].[ext]'
-      },
-      {
-          test: require.resolve("wowjs"),
-          loader: "imports-loader?this=>window"
       }
     ]
   },
