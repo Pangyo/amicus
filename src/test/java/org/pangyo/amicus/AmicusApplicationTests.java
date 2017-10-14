@@ -11,6 +11,7 @@ public class AmicusApplicationTests {
 
 	@Test
 	public void contextLoads() {
+		
 	}
 
 }
