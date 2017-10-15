@@ -1,6 +1,5 @@
-
 # Created by https://www.gitignore.io/api/java,node,macos,maven,windows,intellij
-mvnw
+Gmvnw
 mvnw.cmd
 *.iml
 package-lock.json

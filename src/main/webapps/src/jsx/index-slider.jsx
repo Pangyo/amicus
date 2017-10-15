@@ -1,5 +1,22 @@
 import React from 'react'
 
+var GoogleCalendarIframe = React.createClass({
+  render: function() {
+    return(
+      <div>
+        <iframe
+            src="https://calendar.google.com/calendar/embed?title=Pangyo%20Party%20Default%20Theme&amp;showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=m778cvm518nu704db7rukt0sqc%40group.calendar.google.com&amp;color=%2323164E&amp;ctz=Asia%2FSeoul"
+            style={{borderWidth:"0"}}
+            width="100%"
+            height="500"
+            frameBorder="0"
+            scrolling="no"
+            />
+      </div>
+    )
+  }
+});
+
 const IndexSlider = props => (
 <div>
     <section id="main-slider" className="main-slider text-center">
@@ -281,8 +298,19 @@ const IndexSlider = props => (
                 </div>
             </div>
         </div>
-
     </section>
+
+    <section id="calendar" className="portfolio text-center">
+        <div className="portfolio-bottom">
+            <div className="section-padding">
+                <div className="section-top wow animated fadeInUp" data-wow-delay=".5s">
+                    <h2 className="section-title">일정</h2>
+                    <GoogleCalendarIframe />
+                </div>
+            </div>
+        </div>
+    </section>
+
 </div>
 );
 
