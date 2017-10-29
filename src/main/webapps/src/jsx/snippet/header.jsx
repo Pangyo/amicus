@@ -14,7 +14,7 @@ const Header = props =>
                 <li className="active"><a href="/">Home</a></li>
                 <li><a href="/members">Member</a></li>
                 <li><a href="#">Seminar Blog</a></li>
-                <li><a href="#">Project Blog</a></li>
+                <li><a href="/projects">Project Blog</a></li>
                 <li><a href="#">Tech Blog</a></li>
             </ul>
         </nav>
