@@ -17,6 +17,7 @@ public class ViewController {
     public String members() {
         return "members";
     }
+
     @RequestMapping("/projects")
     public String projects() {
         return "projects";
