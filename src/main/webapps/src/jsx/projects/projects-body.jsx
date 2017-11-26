@@ -3,9 +3,10 @@ import React from 'react';
 class ProjectsBody extends React.Component{
     render() {
         return (
-            <div className="ProjectsBody" >
+            <div className="ProjectsBody">
+                <nav>dfasdf</nav>
                 <section>
-                    "dgdsagdsagagag"
+                    gdsagsa
                 </section>
             </div>
         );
